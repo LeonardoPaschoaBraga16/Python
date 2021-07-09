@@ -1,0 +1,5 @@
+from math import hypot
+
+cat1 = float(input('Insira o valor do  Cateto Oposto: '))
+cat2 = float(input('Insira o valor co Cateto Adjacente: '))
+print('O resultado dessa hipotenusa é de {:.2f}'.format(hypot(cat1, cat2)))

@@ -1,0 +1,5 @@
+import math
+
+num = float(input("Insira um numero: "))
+
+print("O valor de {0} inteiro é igual a {1}".format(num,math.trunc(num)))
